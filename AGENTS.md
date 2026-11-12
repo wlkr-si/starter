@@ -2,7 +2,9 @@
 
 Use the committed npm lockfile with Node.js 24+. Run `npm ci` and `npm run verify`.
 Keep this a static, account-free local starter with no host bindings, telemetry,
-secrets, production defaults or hosted Actions.
+secrets or production defaults. Hosted Actions are limited to read-only
+verification on public repositories; never add deployment credentials or write
+permissions.
 
 Edit `src/site.ts`, the page and app-owned layout/styles to compose the demo.
 Preserve installed WLKR and stock shadcn component/hook source and all upstream
