@@ -8,6 +8,16 @@ pixel sphere and changes the display theme. It needs no account or paid service.
 
 <a href="https://wlkr.si"><picture><source media="(prefers-color-scheme: dark)" srcset="public/brand/part-of-wlkr-si-dark.svg"><img src="public/brand/part-of-wlkr-si-light.svg" alt="Part of WLKR.SI" width="184" height="32"></picture></a>
 
+## Get the starter
+
+Choose **Use this template** above to create your own repository. Or clone the
+public source without an account:
+
+```sh
+git clone https://github.com/wlkr-si/starter.git my-project
+cd my-project
+```
+
 ## Run locally
 
 Use Node.js 24 or newer and npm. Verified with Node 26.8.2 and
