@@ -38,9 +38,13 @@ npm run preview
 ```
 
 `verify` checks formatting, Astro/TypeScript, installed-source hashes and the
-production build. `dist/` is the static output. There is no deployment script,
-host binding, telemetry, API, account configuration or hosted Actions workflow.
-Choose and configure a static host separately when you need one.
+production build. `dist/` is the static output. Public pull requests and pushes
+to `main` run the same verification on Node 24.22.3 and 26.8.2 using standard
+Ubuntu runners. The workflow skips private repositories, uses read-only access,
+and does not cache, upload artifacts or deploy.
+
+There is no deployment script, host binding, telemetry, API or account
+configuration. Choose and configure a static host separately when you need one.
 
 ## Make it yours
 
