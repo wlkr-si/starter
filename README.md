@@ -1,12 +1,16 @@
-# Project
+# WLKR.SI starter
 
 A small static Astro site with React islands, Tailwind CSS and real installed
 [WLKR components](https://ui.wlkr.si). The demo copies a local command, pauses a
 pixel sphere and changes the display theme. It needs no account or paid service.
 
+[Use this template](https://github.com/wlkr-si/starter/generate)
+
+<a href="https://wlkr.si"><picture><source media="(prefers-color-scheme: dark)" srcset="public/brand/part-of-wlkr-si-dark.svg"><img src="public/brand/part-of-wlkr-si-light.svg" alt="Part of WLKR.SI" width="184" height="32"></picture></a>
+
 ## Run locally
 
-Use Node.js 24 or newer and npm. This candidate was checked with Node 26.8.2 and
+Use Node.js 24 or newer and npm. Verified with Node 26.8.2 and
 npm 11.19.1. Package downloads need internet access; the running site uses local
 assets, including its font.
 
@@ -35,7 +39,7 @@ Choose and configure a static host separately when you need one.
    `src/pages/index.astro` and adjust layout styles in `src/styles/global.css`.
 2. Replace the example command and pixel specimen with your own content.
 3. Outside the WLKR.SI family, set `showStudioBadge: false` before publishing.
-   Remove the two badge files and their provenance entries if you no longer
+   Remove the README badge, the two badge files and their provenance entries if you no longer
    distribute them. MIT covers code; it grants no WLKR.SI trademark rights or
    endorsement. Keep the badge linked to `https://wlkr.si` when it is authorized.
 4. Add your own favicon and production metadata deliberately. The starter does
