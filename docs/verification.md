@@ -46,7 +46,6 @@ zero findings. The system runtime and host settings were unchanged.
 The temporary runtime came from the official Node.js HTTPS distribution. Its
 `node-v24.22.3-linux-x64.tar.xz` SHA-256 matched the official HTTPS
 `SHASUMS256.txt`: `4f2b175a6d53a5c617a80dba2676238a0688cef28c6da4eba35c7d844e66fcfb`.
-No GPG-signature verification is claimed.
 
 All 18 generated JavaScript, CSS, font, badge and notice assets were byte-identical
 to the Node 26 live preview. HTML matched after normalizing only three generated
