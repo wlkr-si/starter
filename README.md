@@ -4,7 +4,7 @@ A small static Astro site with React islands, Tailwind CSS and real installed
 [WLKR components](https://ui.wlkr.si). The demo copies a local command, pauses a
 pixel sphere and changes the display theme. It needs no account or paid service.
 
-[Use this template](https://github.com/wlkr-si/starter/generate)
+[Try the preview](https://starter.wlkr.si) · [Use this template](https://github.com/wlkr-si/starter/generate)
 
 <a href="https://wlkr.si"><picture><source media="(prefers-color-scheme: dark)" srcset="public/brand/part-of-wlkr-si-dark.svg"><img src="public/brand/part-of-wlkr-si-light.svg" alt="Part of WLKR.SI" width="184" height="32"></picture></a>
 
@@ -45,7 +45,7 @@ Choose and configure a static host separately when you need one.
 
 ## Make it yours
 
-1. Edit the name and description in `src/site.ts`; compose the page in
+1. Replace this README with your project’s introduction and links. Edit the name and description in `src/site.ts`; compose the page in
    `src/pages/index.astro` and adjust layout styles in `src/styles/global.css`.
 2. Replace the example command and pixel specimen with your own content.
 3. Outside the WLKR.SI family, set `showStudioBadge: false` before publishing.
