@@ -20,8 +20,7 @@ cd my-project
 
 ## Run locally
 
-Use Node.js 24 or newer and npm. Verified with Node 26.8.2 and
-npm 11.19.1. Package downloads need internet access; the running site uses local
+Use Node.js 24 or newer and npm. Verified with Node 24.22.3 and 26.8.2, using npm 11.19.1. Package downloads need internet access; the running site uses local
 assets, including its font.
 
 ```sh
