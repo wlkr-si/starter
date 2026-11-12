@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+.task-cache/
+src/components/ui/
+src/components/wlkr/
+src/hooks/
+licenses/
+public/licenses.txt
+public/brand/

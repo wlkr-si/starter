@@ -1,0 +1,44 @@
+{
+  "name": "@wlkr-si/starter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node scripts/astro.mjs dev",
+    "preview": "node scripts/astro.mjs preview",
+    "check": "node scripts/astro.mjs check",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "provenance:check": "node scripts/check-provenance.mjs",
+    "build": "node scripts/astro.mjs build && node scripts/check-build.mjs",
+    "verify": "npm run format:check && npm run check && npm run provenance:check && npm run build"
+  },
+  "dependencies": {
+    "@astrojs/react": "7.1.1",
+    "@fontsource-variable/geist": "5.3.0",
+    "@tailwindcss/vite": "4.3.3",
+    "astro": "7.3.5",
+    "class-variance-authority": "0.7.1",
+    "cn": "0.5.2",
+    "lucide-react": "1.72.0",
+    "radix-ui": "1.8.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "tailwindcss": "4.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "prettier": "3.9.6",
+    "prettier-plugin-astro": "0.14.1",
+    "typescript": "6.0.3"
+  },
+  "packageManager": "npm@11.19.1",
+  "overrides": {
+    "@astrojs/compiler-rs": "0.5.1"
+  }
+}

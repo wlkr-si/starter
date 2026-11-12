@@ -1,0 +1,70 @@
+{
+  "installer": {
+    "name": "shadcn",
+    "version": "4.22.1",
+    "command": "npx --yes shadcn@4.22.1 add @wlkr/copy-command @wlkr/pixel-object @wlkr/theme-toggle @wlkr/theme --yes"
+  },
+  "retrievedAt": "2026-11-12T01:08:30.358Z",
+  "wlkrSourceCommit": "6a7223a1c18bd39478890e599102bd1f913782ea",
+  "notes": "Official CLI output preserved after framework/import transforms. App-owned src/lib/utils.ts bridges WLKR alias imports to the CLI-installed cn package. Registry endpoints are mutable; these installed sources and hashes are the frozen copy.",
+  "sources": [
+    {
+      "url": "https://ui.wlkr.si/r/copy-command.json",
+      "sha256": "2ff07cbb874fbc9e548ae435b8f7aa400584d36d1766da4f6ac866c1bac69e32"
+    },
+    {
+      "url": "https://ui.wlkr.si/r/pixel-object.json",
+      "sha256": "5f3228aa31b6fe9681c53c04eb83cece8bb7dfc979d9459456d4b561eab05dda"
+    },
+    {
+      "url": "https://ui.wlkr.si/r/theme-toggle.json",
+      "sha256": "f9b47c81c50d4218c13a6a9a7c97233fbf03fc9c19187c7371ff24d53fe23705"
+    },
+    {
+      "url": "https://ui.wlkr.si/r/theme.json",
+      "sha256": "4e4d7a369177d187c17591ee9ff69de20e71508dd6126ea304f4ef7ed5e851db"
+    },
+    {
+      "url": "https://ui.shadcn.com/r/styles/new-york/button.json",
+      "sha256": "4d8f39c3bd25e630b5962667722e8707e7b18122ad6842a5c22acf8a3ff9f93a"
+    },
+    {
+      "url": "https://ui.shadcn.com/r/styles/new-york/toggle.json",
+      "sha256": "54124f63e940a22f49edaff523d4c5f89ccf6b9ed6085ad32155f6b317ea9bba"
+    },
+    {
+      "url": "https://wlkr.si/brand/part-of-wlkr-si-light.svg",
+      "sha256": "53c04ae9cef4fb0fab52161ad17936db89494ade5d60bacb699a9a1f7951b528"
+    },
+    {
+      "url": "https://wlkr.si/brand/part-of-wlkr-si-dark.svg",
+      "sha256": "f1f59136e90317dab16890e6183ed15918a135f761d134e2ecdf3b5d8b7670ef"
+    }
+  ],
+  "licenseSources": [
+    "https://raw.githubusercontent.com/wlkr-si/ui/6a7223a1c18bd39478890e599102bd1f913782ea/LICENSE",
+    "https://raw.githubusercontent.com/shadcn-ui/ui/main/LICENSE.md"
+  ],
+  "files": {
+    "src/components/wlkr/copy-command.tsx": "cbb7b6084eee1a7884f721e4abdc50a9492deede78767427a7d8044e35ffcf95",
+    "src/components/wlkr/pixel-object.tsx": "193627a2d1d700156856b3d569c47da09c817c373562676548a7bc194a396938",
+    "src/components/wlkr/theme-toggle.tsx": "e645427a2cb3ce10d30c33b9e0667ad3185ec047f31a48a7f138ae5a704d8d6d",
+    "src/components/ui/button.tsx": "79dd6f75f8136394442202d6b8b922fb269eaad0a5dba579397c9d5b41f893bb",
+    "src/components/ui/toggle.tsx": "28ae7d72730890a3ba6c668fd511c63a358ad26534c2c25d5922748d47e1fa99",
+    "src/hooks/use-display-theme.ts": "0bf54250229934a08cf57c92328388bb5d7d523ba301556204b809b6bc7e3e53",
+    "public/brand/part-of-wlkr-si-dark.svg": "f1f59136e90317dab16890e6183ed15918a135f761d134e2ecdf3b5d8b7670ef",
+    "public/brand/part-of-wlkr-si-light.svg": "53c04ae9cef4fb0fab52161ad17936db89494ade5d60bacb699a9a1f7951b528",
+    "licenses/WLKR-ui-MIT.txt": "5e6f65eab23512f96dde0094227013f0b7203c16219a2ead44d53d2744e9e898",
+    "licenses/astro.txt": "4aa72be797aad0e5e21827eaae6a1df9e122d7a401f07d2c308a6b9a5f0e1278",
+    "licenses/astrojs-react.txt": "4aa72be797aad0e5e21827eaae6a1df9e122d7a401f07d2c308a6b9a5f0e1278",
+    "licenses/class-variance-authority.txt": "0ccbf956cffc8dcf515809433cb5242ee67c94513d46e48c261d68d0880de406",
+    "licenses/cn.txt": "00ff8408e93e2ecc4d90c0edeabdf434100c3aff50acc5d330e17eccd4a3faa5",
+    "licenses/fontsource-variable-geist.txt": "71609cbb5c78b5870d712eab73a31d76622635c6ed034ab5cee3b9ecbda8685f",
+    "licenses/lucide-react.txt": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+    "licenses/radix-ui.txt": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+    "licenses/react-dom.txt": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+    "licenses/react.txt": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+    "licenses/shadcn-ui-MIT.txt": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f",
+    "licenses/tailwindcss.txt": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985"
+  }
+}

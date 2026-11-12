@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { site } from '../site';
+import { CopyCommand } from '../components/wlkr/copy-command';
+import { PixelObject } from '../components/wlkr/pixel-object';
+import { ThemeToggle } from '../components/wlkr/theme-toggle';
+---
+
+<Layout>
+  <header class="page-shell site-header">
+    <a class="project-name" href="/">{site.name}</a>
+    <nav aria-label="Primary navigation">
+      <a href="https://ui.wlkr.si">Components ↗</a>
+      <ThemeToggle storageKey="project-theme" client:load />
+    </nav>
+  </header>
+  <main class="page-shell" id="main">
+    <section class="hero" aria-labelledby="project-title">
+      <div class="hero-copy">
+        <h1 id="project-title">{site.name}</h1>
+        <div class="command-demo">
+          <CopyCommand command="npm run dev" client:load />
+        </div>
+      </div>
+      <div class="pixel-demo">
+        <PixelObject label="Pixel sphere" size={320} client:load />
+      </div>
+    </section>
+  </main>
+  <footer class="page-shell site-footer">
+    {
+      site.showStudioBadge && (
+        <a href="https://wlkr.si" class="family-link">
+          <img
+            class="family-badge family-badge-light"
+            src="/brand/part-of-wlkr-si-light.svg"
+            width="184"
+            height="32"
+            alt="Part of WLKR.SI"
+          />
+          <img
+            class="family-badge family-badge-dark"
+            src="/brand/part-of-wlkr-si-dark.svg"
+            width="184"
+            height="32"
+            alt="Part of WLKR.SI"
+          />
+        </a>
+      )
+    }
+    <a href="/licenses.txt">Licenses</a>
+  </footer>
+</Layout>
